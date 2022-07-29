@@ -31,7 +31,7 @@ public interface AdminRepository extends JpaRepository<Admins, Integer> {
 	public int userValid(String username, String pwd);
 	
 	
-	public int findByid(String username); 
+	public Admins findByid(String username); 
 	
 	
 	

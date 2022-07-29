@@ -109,11 +109,11 @@ public class AdminService {
 
 				System.out.println("User found and res is " + res);
 				
-				//int user_id = ar.findByid(a.getUserName());
+				Admins aa = ar.findByid(a.getUserName());
 				
-				int user_id = ad.findUserId2(a.getUserName()); 
+				//int user_id = ad.findUserId2(a.getUserName()); 
 
-				System.out.println("user id " + user_id);
+				System.out.println("user id " + aa.getId());
 
 				// int res2 = ar.updatePwd(a.getUserName(), pwd2);
 
